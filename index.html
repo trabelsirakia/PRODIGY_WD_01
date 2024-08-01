@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Website Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"> <img src="logo.png" class="logo" alt="Pepsi Logo"></a>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="products">Products</a></li>
+                <li><a href="#" id="whatsnew">What's New</a></li>
+                <li><a href="#" id="newsletter">Newsletter</a></li>
+                <li><a href="#" id="contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>that's what <br><span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nobis magni provident qui, dolor accusamus iste laudantium voluptatem, animi modi exercitationem cum impedit sequi. Praesentium repellat nam temporibus consequatur perferendis?</p>
+                <a href="#">View all Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="pepsi001.png" class="pepsi" alt="Pepsi Image">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="pepsi001.png" alt="Pepsi 001" onclick="imgSlider('pepsi001.png'); changeBgColor('#0062be')"></li>
+            <li><img src="pepsi002.png" alt="Pepsi 002" onclick="imgSlider('pepsi002.png'); changeBgColor('#e60c2c')"></li>
+            <li><img src="pepsi003.png" alt="Pepsi 003" onclick="imgSlider('pepsi003.png'); changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
